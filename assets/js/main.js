@@ -115,7 +115,7 @@ function generateRandomUser(){
 	sessionStorage.setItem("loginPx", emailFinal); 
 	aptrinsic("identify",
 	{
-		"id" : "",
+		"id" : emailFinal,
 		"email": emailFinal,
 		"firstName": firstName,
 		"lastName": lastName,
